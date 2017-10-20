@@ -121,7 +121,13 @@ module.exports = function (env) {
           }),
           include: [helpers.root('src', 'styles')]
         },
-
+        // {
+        //   test: /\.ts$/,
+        //   loaders: [
+        //       'awesome-typescript-loader',
+        //       'angular-router-loader?aot=true&genDir=compiled/'
+        //   ]
+        // }
       ]
 
     },
